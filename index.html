@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Card Added</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Our Products</h1>
+    <div class="product-grid">
+    <!-- Product 1 -->
+        <div class="product-card">
+            <img src="images/Wireless-HeadPhone1.png" alt="" class="product-image">
+            <h3>Wireless HeadPhone</h3>
+            <p>$99.99</p>
+            <button class="add-to-cart" data-id="1" data-name="Wireless HeadPhone" data-price="99.99">Add To Cart</button>
+        </div>
+        <!-- Product 2 -->
+         <div class="product-card">
+            <img src="images/OBJECTS.png" alt="Smart Watch" class="product-image">
+            <h3>Smart Watches</h3>
+            <p>$159.99</p>
+            <button class="add-to-cart" data-id="2" data-name="Smart Watch" data-price="159.99">Add To Cart</button>
+         </div>
+        <!-- Product 3 -->
+         <div class="product-card">
+            <img src="images/3.png" alt="Bluetooth Speaker" class="product-image">
+            <h3>Bluetooth Speaker</h3>
+            <p>$149.99</p>
+            <button class="add-to-cart" data-id="3" data-name="Bluetooth Speaker" data-price="149.99">Add To Cart</button>
+         </div>
+        <!-- Product 4 -->
+         <div class="product-card">
+            <img src="images/4.svg" alt="E Reader" class="product-image">
+            <h3>E-Reader</h3>
+            <p>$179.99</p>
+            <button class="add-to-cart" data-id="4" data-name="E reader" data-price="179.99">Add To Cart</button>
+         </div>
+        <!-- Product 5 -->
+         <div class="product-card">
+            <img src="images/5.png" alt="Wireless Mouse" class="product-image">
+            <h3>Wireless Mouse</h3>
+            <p>$149.99</p>
+            <button class="add-to-cart" data-id="5" data-name="Wireless Mouse" data-price="149.99">Add To Cart</button>
+         </div>
+         <!-- Product 6 -->
+         <div class="product-card">
+            <img src="images/6.png" alt="Portable Charger" class="product-image">
+            <h3>Portable Charger</h3>
+            <p>$149.99</p>
+            <button class="add-to-cart" data-id="6" data-name="Portable Charger" data-price="149.99">Add To Cart</button>
+         </div>
+
+    </div>
+
+    <!-- Shopping Cart -->
+     <div class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Shopping Cart</h2>
+            <button class="close-cart">X</button>
+        </div>
+        <ul class="cart-items"></ul>
+        <div class="cart-total">
+            <strong>Total: $<span id="total">0.00</span></strong>
+        </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
